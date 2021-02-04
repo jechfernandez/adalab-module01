@@ -1,0 +1,22 @@
+* {box-sizing: border-box;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border: 1px salmon;
+    box-sizing: border-box;
+}
+
+item {
+    box-sizing: border-box;
+    border: 1px solid red;
+    justify-content: left;
+    size: 50%;
+}
+
+.item-2 {
+    size: 50%;
+}

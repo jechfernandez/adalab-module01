@@ -1,0 +1,11 @@
+.container{
+    height: 100px;
+    /*width: 1000px;*/
+    display: flex;
+    flex-direction: row;
+    border: 1px solid plum;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+}

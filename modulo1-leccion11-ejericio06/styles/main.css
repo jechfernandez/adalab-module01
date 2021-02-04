@@ -1,0 +1,44 @@
+/*div{
+    background-color: aquamarine;
+}*/
+
+.container-fluid{
+}
+
+.row{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+  }
+
+  .onecolumn{
+      background-color: blue;
+      display: flex;
+      justify-content: center;
+  }
+
+  .twocolumns{
+      background-color: turquoise;
+      display: flex;
+      justify-content: center;
+  }
+
+  .fourcolumns{
+      background-color: blue;
+      display: flex;
+      justify-content: center;
+  }
+
+  .sixcolumns{
+      background-color: turquoise;
+      display: flex;
+      justify-content: center;
+  }
+
+  .twelvecolumns{
+      background-color: blue;
+      display: flex;
+      justify-content: center;
+  }

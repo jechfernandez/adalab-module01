@@ -1,0 +1,31 @@
+.header {
+    background-color: purple;
+    display: inline-block;
+    position: fixed;
+    width: 100vw;
+    z-index: 999;
+
+}
+
+.list {
+    list-style-type: none;
+    display: inline-block;
+    border: 1px solid red;
+    justify-content: right;
+    position: relative;
+    width: 600px;
+}
+
+.item-1{
+    border: 1px blue;
+    justify-content: right;
+}
+
+.item-2{
+    justify-content: right;
+}
+
+.container{
+    position: relative;
+    top: 80px;
+}

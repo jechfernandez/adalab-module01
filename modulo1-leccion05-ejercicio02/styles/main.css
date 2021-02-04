@@ -1,0 +1,33 @@
+.divPadre {
+    position: relative;
+}
+
+.div1 {
+    position: relative;
+    height: 300px;
+    width: 300px;
+    background-color: red;
+    margin: 40px;
+    padding: 30px;
+    transform: translate(100px, 50px);
+}
+
+.div2 {
+    position: relative;
+    height: 300px;
+    width: 300px;
+    background-color: yellow;
+    margin: 40px;
+    padding: 30px;
+    transform: translate(-150px, -320px);
+}
+
+.div3 {
+    position: relative;
+    height: 300px;
+    width: 300px;
+    background-color: blue;
+    margin: 40px;
+    padding: 30px;
+    transform: translate(180px, -240px);
+}

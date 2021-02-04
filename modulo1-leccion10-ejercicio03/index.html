@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/main.css">
+</head>
+<body>
+    <h1>Create an account</h1>
+    <p>It's free and always will be.</p>
+
+    <form action="/signup" method="POST">
+        <label for="firstName"></label>
+        <input placeholder="First name" id="firstName" type="text" name="firstName" required />
+        <label for="surname"></label>
+        <input placeholder="Surname" id="surname" type="text" name="surname" required />
+        <label for="height"></label>
+        <input placeholder="Height" id="height" type="number" name="height" min="50cm" max="250cm" step="10" required />
+        <label for="mailorphone"></label>
+        <input placeholder="Email or mobile number" id="mailorphone" type="text" name="mailorphone" required />
+        <label for="mailorphone-check"></label>
+        <input placeholder="Re-enter email or mobile number" id="mailorphone-check" type="text" name="mailorphone-check" required />
+        <label for="password"></label>
+        <input placeholder="New password" id="password" type="password" name="password" required />
+        <input type="hidden" id="broswer" name="browser">
+    </form>
+
+    <textarea name="profileInfo" id="profileInfo" cols="30" rows="10"></textarea>
+
+    <p>Birthday</p>
+
+    <label for="dayofbirth"></label>
+    <select id="dayofbirth" name="dayofbirth">
+      <option value="00">Day</option>
+      <option value="01">01</option>
+    <option value="02">02</option>
+    <option value="03">03</option>
+    <option value="04">04</option>
+    <option value="05">05</option>
+    <option value="06">06</option>
+    </select>
+
+    <label for="monthofbirth"></label>
+    <select id="monthofbirth" name="monthofbirth">
+      <option value="00">Month</option>
+      <option value="01">01</option>
+    <option value="02">02</option>
+    <option value="03">03</option>
+    <option value="04">04</option>
+    <option value="05">05</option>
+    <option value="06">06</option>
+    </select>
+
+    <label for="yearofbirth" ></label>
+    <select id="yearofbirth" name="yearofbirth">
+      <option value="00" disabled selected>Year</option>
+    <option value="01">01</option>
+    <option value="02">02</option>
+    <option value="03">03</option>
+    <option value="04">04</option>
+    <option value="05">05</option>
+    <option value="06">06</option>
+    </select>
+
+    <p>Why do I need to providde my date of birth?</p>
+
+    <div>
+        <label for="gender1">
+          <input
+            id="gender1"
+            type="radio"
+            value="gender1"
+            name="gender"
+          />
+          Female
+        </label>
+      </div>
+      <div>
+        <label for="gender2">
+          <input
+            id="gender2"
+            type="radio"
+            value="gender2"
+            name="gender"
+          />
+          Male
+        </label>
+      </div>
+
+    <input type="reset" value="Restaurar valores por defecto" />
+
+
+    <p>
+        By clicking Create an account. you agree to our Terms and that you have read our Data Policy, including Cookie Use.
+    </p>
+   
+    
+    <input type="submit" name="createacc" id="createacc" value="Create an account" required>
+
+    
+    
+</body>
+</html>

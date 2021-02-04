@@ -1,0 +1,10 @@
+.text {
+    width: 86%;
+    max-width: 600px;
+    /*display: flex;
+    align-content: center;
+    border: 1px red;*/
+    position: relative;
+    margin: auto;
+    text-align: justify;
+}

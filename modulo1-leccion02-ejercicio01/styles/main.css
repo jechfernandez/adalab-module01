@@ -1,0 +1,29 @@
+body {
+    background-color: rgb(250, 243, 248);
+}
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: rgb(255, 0, 0);
+}
+table {
+    width: 100%;
+ }
+ th, td {
+    width: 10%;
+    text-align: center;
+    vertical-align: center;
+    border: 1px solid red;
+    border-collapse: collapse;
+    padding: 1em;
+ }
+ th{
+     background-color: rgb(255, 239, 250);
+     color: red;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+ td{
+     background-color: rgba(236, 161, 161, 0.137);
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     color: red;
+ }
